@@ -21,6 +21,8 @@ class productContainer extends GetView<HomePageControllerImp> {
   @override
   Widget build(BuildContext context) {
     return Card(
+
+      
       elevation: 10,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Container(
